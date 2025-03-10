@@ -60,3 +60,23 @@
         transform: translateY(-6px);
     }
 }
+
+[dir="rtl"] .chat-button {
+    left: 20px;
+    right: auto;
+}
+
+[dir="ltr"] .chat-button {
+    right: 20px;
+    left: auto;
+}
+
+[dir="rtl"] .message-badge {
+    left: 0;
+    right: auto;
+}
+
+[dir="ltr"] .message-badge {
+    right: 0;
+    left: auto;
+}
