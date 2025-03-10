@@ -15,7 +15,23 @@ Run the following command to install the package via Composer:
 ```bash
 composer require monzer/filament-chatify-integration
 ```
+Install command:
 
+```bash
+php artisan filament-chatify-integration:install
+```
+
+Run database migration:
+
+```bash
+php artisan migrate
+```
+
+Publish assets:
+
+```bash
+php artisan filament:assets
+```
 ## Configuration
 
 Please visit [Chatify configuration section](https://chatify.munafio.com/configurations) to complete the configuration.
